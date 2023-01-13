@@ -1,10 +1,12 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.By;
+
 public class OrderPage {
 
-	String order;
+	private By order = By.id("order");
 	
-	public void order()
+	public void orderPage()
 	{
 		System.out.println("order id is 12345");
 	}
